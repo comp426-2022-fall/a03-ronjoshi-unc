@@ -22,5 +22,6 @@
   "bin": {
     "roll-dice": "./bin/cli.js"
   },
+  "keywords": ["roll"],
   "type": "module"
 }
