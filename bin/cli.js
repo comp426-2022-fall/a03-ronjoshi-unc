@@ -3,8 +3,8 @@ import Roll from "../lib/roll.js";
 import minimist from 'minimist';
 const args = minimist(process.argv.slice(2))
 
-const sides = args.sides || 6;
-const dice = args.dice || 2;
-const rolls = args.rolls || 1;
+const sides = args.sides;
+const dice = args.dice;
+const rolls = args.rolls;
 
 console.log(JSON.stringify(Roll(sides, dice, rolls)));
